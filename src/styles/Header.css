@@ -1,0 +1,103 @@
+.Header {
+
+    background-image: url('https://www.montcalm.co.uk/blog/wp-content/uploads/2019/07/concert.jpg');
+    background-position: center; /* Center the image */
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+.title {
+
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+  }
+  
+  .ticketIcon {
+  
+    width: 70px;
+    height: 70px;
+  }
+  
+  .navBar {
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  .loginButton {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+  
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color:  rgb(184, 29, 29);
+  }
+  
+  
+  .navBar input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    background-color: white;
+  }
+  
+  .Login {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .loginButton {
+  
+      height: 35px;
+      width: 100px;
+      background-color: rgb(184, 29, 29);
+      margin-right: 40px;
+      color: black;
+  }
+  
+  .loginButton a {
+  
+  
+    color: black;
+  }
+  
+  
+  

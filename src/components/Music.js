@@ -1,36 +1,34 @@
 import React from 'react'
-import Sportrow from './Sportrow'
-import '../styles/Sport.css'
+import Musicrow from './Musicrow'
+import '../styles/Music.css'
 
-export default function Sport({games, rate, theme}) {
+export default function Music({games,rate, theme}) {
 
-    console.log(games)
-
+    
 
   return (
     
-    <div className='sport'>
+    
+    <div className='music'>
         
-        
-        <div className='sport-header' >
-          <h1> Sport Tickets </h1>
+        <div className='music-header' >
+          <h1> Music Tickets </h1>
         </div>
         
-        <div className='sport-2'> 
-
+        <div className='music-2'> 
       {games.map ((game, id) => {
-      return <Sportrow 
+      return <Musicrow
         imgs = {game.images} 
         eventType = {game.classifications}
         time = {game.dates.start.localTime ? game.dates.start.localTime : 'Not Avaliable '}  
-        date = {game.dates.start.localDate} 
+        date = {game.dates.start.localDate ? game.dates.start.localDate : 'Not Avaliable' } 
         name = {game.name} 
         where = {game._embedded}
         timeZone = {game.dates.timezone}
         price  = {game.priceRanges ? game.priceRanges : 'Not Avaliable ' }
         key = {id}
         rate = {rate.ETH}
-        theme ={theme}
+        theme = {theme}
          />
     })}  
     </div>
