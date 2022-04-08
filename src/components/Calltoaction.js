@@ -8,7 +8,7 @@ export default function Calltoaction({theme}) {
         <div className= {`calltoaction-info ${theme}`}>
             <h1> Register Today </h1>
             <h4> Get NFTickets delivered to your wallet and share them instantly with friends. Simple as that. </h4>
-            <button id = 'button'> Sign Up</button>
+            <button className='button'> Sign Up</button>
         </div>
     </div>
     

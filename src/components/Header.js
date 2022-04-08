@@ -16,8 +16,8 @@ export default function Header({theme}) {
 
     <div className= {`navBar ${theme}`}>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#events">Events</a></li>
+            <li><a href="home">Home</a></li>
+            <li><a href="events">Events</a></li>
             <input type="text" placeholder="Search.."></input>
         </ul> 
 

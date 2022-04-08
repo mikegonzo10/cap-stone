@@ -7,10 +7,6 @@ import Footer from './Footer';
 
 export default function Event ({games, rate,theme}) {
 
-
-  // console.log(gamesInfo[0].images)
-
-
   return (      
   
 
