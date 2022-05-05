@@ -37,7 +37,7 @@
 .calltoaction {
     height: 450px;
     width: 100%;
-    background-image: url('../public/images/sport.png');
+    /* background-image: url('../public/images/sport.png'); */
     background-repeat: no-repeat; 
     background-position: center;
     /* background-color:#333; */

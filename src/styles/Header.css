@@ -1,13 +1,29 @@
 .Header {
 
-    background-image: url('https://www.montcalm.co.uk/blog/wp-content/uploads/2019/07/concert.jpg');
+    /* background-image: url('https://www.montcalm.co.uk/blog/wp-content/uploads/2019/07/concert.jpg'); */
+    background: linear-gradient(to right, #0F2027, #203A43, #2C5364);    
     background-position: center; /* Center the image */
-    height: 350px;
+    height: 150px;
     width: 100%;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-content: space-between;
+  
+  }
+  .Header.light {
+
+    /* background-image: url('https://www.montcalm.co.uk/blog/wp-content/uploads/2019/07/concert.jpg'); */
+    background: linear-gradient(to right, #224757, #70cbe9, #2C5364);    
+    background-position: center; /* Center the image */
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
   
   }
 
@@ -29,6 +45,7 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
+    font-size: 30px;
   }
   
   .loginButton {
@@ -37,6 +54,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+
   }
   
   
@@ -54,15 +72,16 @@
   
   li a {
     display: block;
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+
   }
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color:  rgb(184, 29, 29);
+    background-color:  rgb(68, 170, 173);
   }
   
   
@@ -72,7 +91,7 @@
     border: none;
     margin-top: 8px;
     margin-right: 16px;
-    font-size: 17px;
+    font-size: 20px;
     background-color: white;
   }
   
@@ -88,7 +107,7 @@
   
       height: 35px;
       width: 100px;
-      background-color: rgb(184, 29, 29);
+      background-color: rgb(123, 219, 226);
       margin-right: 40px;
       color: black;
   }
